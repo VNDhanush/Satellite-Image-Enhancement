@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body style="font-family: 'Montserrat';">
+    <h1 class="text-capitalize" style="font-family: 'Montserrat';background-color: #40c4ff;color: white;padding: 1rem;">Image Denoise Results</h1>
+    <div class="card" style="border: 2px solid skyblue;box-shadow: 0px 3px 6px grey;">
+        <div class="card-body">
+            <h4 class="card-title">Uploaded Image:</h4>
+            <p>{{name}}</p>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="card" style="border: 2px solid skyblue;background-color: #57595d;color: white;">
+            <div class="card-body">
+                <h4 class="card-title" style="font-family: 'Montserrat';">Before</h4><img style=" margin: 0 auto; text-align: center;" width="256px" height="256px" src="/{{before}}"></div>
+        </div>
+        <div class="card">
+            <div class="card-body" style="border: 2px solid skyblue;background-color: #57595d;color: white;">
+                <h4 class="card-title" style="font-family: 'Montserrat';">After</h4><img style=" margin: 0 auto; text-align: center;" width="256px" height="256px" src="/{{after}}"></div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
