@@ -18,7 +18,7 @@ Markdown==3.1.1
 MarkupSafe==1.1.1
 matplotlib==3.2.0
 numpy==1.18.1
-opencv-python==3.1.0.4
+opencv-python==4.2.0.32
 post==2019.4.13
 protobuf==3.11.3
 public==2019.4.13
