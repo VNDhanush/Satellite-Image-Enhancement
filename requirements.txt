@@ -20,7 +20,7 @@ matplotlib==3.2.0
 numpy==1.18.1
 opencv-python==3.1.0.4
 post==2019.4.13
-protobuf==3.11.3
+protobuf==3.15.0
 public==2019.4.13
 pyparsing==2.4.6
 pyreadline==2.1
